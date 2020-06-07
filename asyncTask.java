@@ -23,7 +23,6 @@ public class asyncTask extends Task {
         this.b = b;
     }
 
-
     @Override
     protected Object call() throws Exception {
         BufferedImage img = new BufferedImage((int)(canvas.getWidth()),(int)canvas.getHeight(),BufferedImage.TYPE_INT_RGB);
